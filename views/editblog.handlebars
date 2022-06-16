@@ -1,0 +1,38 @@
+
+{{>homepage}}
+
+
+<div class="w3-container w3-responsive w3-display-middle w3-grey w3-opacity  w3-border-blue news" style = "width:70%;overflow-y:scroll;height:70%">
+    {{#each blogs  as |data|}}
+  <form class="edit-post-form">
+
+    <div>
+        <label for="post-title">Post Name:</label>
+      <input class="input" name="post-title" type="text" value="{{data.blogname}}" />
+    </div>
+    <div>
+        <label for="post-content">Post Description:</label>
+      <input class="textarea" name="post-content" type="text" style="width:100%" value="{{data.description}}" />
+    </div>
+
+    
+    <div class="is-pulled-right">
+
+     
+
+      <a href="">View comments</a>
+
+    </div>
+    <div>
+    
+    <button type="submit" class="button is-success">SAVE</button>
+    </div><br>
+    <button type="button" class="button is-danger delete-post-btn">DELETE</button>
+  </form>
+    {{/each}}
+</div>
+
+
+
+<script src="/js/updatepost.js"></script>
+<script src="/js/deletepost.js"></script>

@@ -1,0 +1,14 @@
+[
+    
+    {
+    "name":"Express",
+    "description":"Express.js is a free and open-source web application framework for Node.js. It is designed for building web applications and APIs. It is the standard server framework for Node.js. With Express, you can develop single-page applications, multi-page applications, and hybrid web apps.",
+    "user_id":"1"
+    },
+    
+    {
+        "name":"Node JS",
+        "description":"As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. ",
+        "user_id":"2"
+        }
+    ]

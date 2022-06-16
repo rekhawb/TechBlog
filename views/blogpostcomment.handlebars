@@ -1,0 +1,44 @@
+{{>homepage}}
+
+
+
+{{!-- {{#if loggedIn}} --}}
+
+<div class="w3-container w3-responsive w3-display-middle w3-red  w3-opacity w3-border-blue news" style = "width:70%;overflow-y:scroll;height:70%">
+
+
+
+<form class="comment-form">
+  <div>
+    <textarea class="" name="comment-body"  style="width:100%"></textarea>
+  </div><br>
+
+  <div>
+    <button type="submit" class="" style="width:30%" >Add Comment</button>
+  <!--  <button class="button is-warning" type="submit">add comment</button>-->
+  </div>
+  
+</form>
+{{!-- {{/if}} --}}
+<div class="comments">
+  {{#each comments as |data|}}
+  <section class="comment">
+    <div class="card">
+    
+    </div>
+    <div class="card-body">
+      <div class="card-text">
+      {{data.description}} - {{data.name}}
+      </div>
+    </div>
+  </section>
+  {{/each}}
+</div><br>
+
+
+</div>
+   
+
+{{!-- {{#if loggedIn}} --}}
+<script src="/js/blogpostcomment.js"></script>
+{{!-- {{/if}} --}}

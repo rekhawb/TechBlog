@@ -1,0 +1,17 @@
+[
+    
+    {
+
+    "blog_comment":"Good experience working with express. I would like to offer teaching to anyone interesting",
+    "blog_id": 1,
+    "user_id": 1
+  
+    },
+    
+    {
+   
+        "blog_comment":"Interesting" ,
+        "blog_id": 1,
+        "user_id": 2
+        }
+    ]

@@ -1,0 +1,23 @@
+
+
+
+{{>homepage}}
+
+<div class="w3-container w3-responsive w3-display-topmiddle w3-opacity w3-border-blue news " style = "margin-top:10%;overflow-y:autol;height:auto">
+
+ {{#each blogs  as |data|}}
+<div class="card">
+  <div class="card-header ">
+      <h4><a href="/comment/{{data.blog_id}}"  class="has-text-black is-capitalized  is-pulled-left">{{data.blogname}} </a> <span style="font-size:small; text-align:right">Posted by: {{data.name}} on {{data.blogdt}}</span></h4>
+    <div class="content">
+     {{data.description}}
+    </div>
+  </div>
+</div>
+ {{/each}}
+</div>
+
+
+
+
+

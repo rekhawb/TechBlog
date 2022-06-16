@@ -1,0 +1,23 @@
+ <div class="container">
+  <nav class="navbar navbar-expand-xxlnavbar-dark bg-dark ">
+  <ul class="nav nav-pills">
+  <li class="active">
+   <a class="navbar-brand" href="/">Home</a>
+  </li>
+  <li><a class="navbar-brand" href="/myblogs">Dashboard</a></li>
+  {{#unless loggedIn}}
+  <li> <a class="navbar-brand" href="/login">Login</a></li>
+  {{/unless}}
+  {{#if loggedIn}}
+  <li> <a class="navbar-brand" href="" id="logout">Logout</a></li>
+  {{/if}}
+</ul>
+<div>
+    <a class="btn btn-primary btn-xxl">
+      The Tech Blog
+    </a>
+</div>
+  </nav>
+</div>
+
+<script src="/js/logout.js"></script>
