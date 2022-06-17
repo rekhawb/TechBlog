@@ -38,6 +38,9 @@
 ### you can see that the comment that you added is listed at the bottom
 ![homescreen](public/images/nav8.PNG)
 
+### Here is the video walk through link
+https://drive.google.com/file/d/1TtRfZmJEn66sZabkhnzc705FzTxUJZr1/view
+
 ## Hope Tech Blog will be part of your learning journey!
 
 
