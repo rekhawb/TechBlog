@@ -4,10 +4,10 @@ async function newFormHandler(event) {
 
 
     const name = document.querySelector('input[name="post-title"]').value;
-    alert(name);
+    //alert(name);
     
-    const description= document.querySelector('input[name="post-content"]').value;
-    alert(description);
+    const description= document.querySelector('.post-content').value;
+    //alert(description);
   
 
     const response = await fetch(`/api/addblogpost`, {
