@@ -41,6 +41,8 @@
 ### Here is the video walk through link
 https://drive.google.com/file/d/1TtRfZmJEn66sZabkhnzc705FzTxUJZr1/view
 
+https://drive.google.com/file/d/12SdkeflJfll-zt8-Lsvc_UXXXdNtC63N/view
+
 ## Hope Tech Blog will be part of your learning journey!
 
 
